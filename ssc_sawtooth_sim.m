@@ -1,3 +1,15 @@
+%{
+This MATLAB script simulates the Spread Spectrum Clock (SSC) spectrum, modulated
+using sawtooth profile function. The simulation aims to analyze and visualize the spectral
+properties of the SSC-modulation technique.
+For a detailed explanation of the underlying equations and theory, please refer to:
+Mohamed Alla Eddine Bahi, Maria Mendez Real, Erwan Nogues, Maxime Pelcat,
+"Clock-to-Clock Modulation Covert Channel", Accepted for presentation at EMC Europe, 
+Paris, France, 2025.
+HAL Archive: ⟨hal-05069600⟩
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % Define parameters for signal generation
 f0 = 100e6;  % Carrier frequency of the square wave (100 MHz)
 Fs0 = 100 * f0; % Sampling frequency for square wave (100x f0 for aliasing avoidance)
